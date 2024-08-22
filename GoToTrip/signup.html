@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="main">
+    <form class="form" action="signup.php" method="POST">
+        <p class="message">Signup</p>
+            <div class="flex">
+            <label>
+                <p class="details">First name</p>
+                <input class="input" type="text" name="first_name" required>
+            </label>
+
+            <label>
+                <p class="details">Last name</p>
+                <input class="input" type="text" name="last_name" required>
+            </label>
+        </div>  
+                
+        <label>
+            <p class="details">Email</p>
+            <input class="input" type="email" name="email" required>
+        </label> 
+            
+        <label>
+            <p class="details">Password</p>
+            <input class="input" type="password" name="password" required>    
+        </label>
+        <label>
+            <p class="details">Confirm password</p>
+            <input class="input" type="password" name="confirm_password" required>
+        </label>
+        <button class="submit" type="submit">Sign Up</button>
+        <p class="signin">Already have an account ? 
+            <a href="login.html">Sign in</a>
+        </p>
+    </form>
+</div>
+</body>
+</html>

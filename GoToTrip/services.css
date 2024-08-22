@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_img{
+    width: 100vw;
+    height: 500px;
+}
+
+.image>p{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    padding: 10px;
+}
+
+.card_img:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.hover{
+    overflow: hidden;
+}
+
+.hover img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+	position: relative;
+	background-color: rgb(44, 41, 41);
+	height: 450px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	bottom: 0;
+	margin-top: 100px;
+	margin-right: 0;
+}
+
+.go{
+	position: relative;
+	color: white;
+	margin-top: 80px;
+	margin-left: 80px;
+}
+
+.contact{
+	position: absolute;
+	color: white;
+	margin-top: 130px;
+	margin-left: 320px;
+}
+
+i{
+	display: inline-block;
+}
+
+.num{
+	display: inline-block;
+}
+
+.loc{
+	display: inline-block;
+}
+
+.icons{
+	position: relative;
+	height: 50px;
+	width: auto;
+	left: 49%;
+	top: 50%;
+}
+
+.icons>a>i:hover{
+	transform: scale(1.2);
+	transition: 100ms linear;
+}
+
+footer i{
+	position: relative;
+	color: white;
+	font-size: 23px;
+	margin: 10px;
+}
+
+.location{
+	display: flex;
+}
+
+.email{
+	display: inline-block;
+}
+
+.copy{
+	position: relative;
+	color: white;
+	text-align: center;
+	
+	margin-top: 10px;
+}
+.copyright {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.line {
+	background-color: white;
+	height: 1px;
+	width: 98%;
+	margin-top: 200px;
+}
+
+.des{
+	position: absolute;
+	color: white;
+	margin-top: 130px;
+	margin-left: 80px;
+}
+
+.info{
+	position: absolute;
+	color: white;
+	margin-top: 80px;
+	margin-left: 330px;
+}
+.shrink {
+	font-size: small;
+}
+
+.tags{
+	position: absolute;
+	color: white;
+	margin-left: 730px;
+	margin-top: 80px;
+}
+
+.tag{
+	position: absolute;
+	margin-left: 730px;
+	margin-top: 135px;
+	text-decoration: none;
+	color: white;
+	width: 55px;
+	text-align: center;
+}
+
+.footer_tag>a:hover{
+	border: 1px solid white;
+}
+
+.tag1{
+	position: absolute;
+	margin-top: 135px;
+	margin-left: 791px;
+	text-decoration: none;
+	color: white;
+	width: 55px;
+	text-align: center;
+}
+
+.tag2{
+	position: absolute;
+	margin-top: 135px;
+	margin-left: 852px;
+	text-decoration: none;
+	color: white;
+	width: 81px;
+	text-align: center;
+}
+
+.tag3{
+	position: absolute;
+	margin-top: 166px;
+	margin-left: 730px;
+	text-decoration: none;
+	color: white;
+	width: 87px;
+	text-align: center;
+}
+
+.tag4{
+	position: absolute;
+	margin-top: 166px;
+	margin-left: 822px;
+	text-decoration: none;
+	color: white;
+	width: fit-content;
+	text-align: center;
+}

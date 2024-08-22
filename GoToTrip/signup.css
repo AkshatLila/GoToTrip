@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-image: url(Images/signup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+  height: 100vh;
+    width: 100%;
+    background: transparent;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    color: #fff;
+    background-image: url(Images/signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.message{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .details{
+    color: white;
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  .signin {
+    color: rgba(156, 163, 175, 1);;
+    text-align: center;
+    font-size: 14.5px;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline;
+  }
+  
+  .signin a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+  }
+  
+  .form label {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form label .input {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,
+  .form label .input:valid + span {
+    color: #00bfff;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .input {
+    font-size: medium;
+  }
+  
+  .submit {
+    width: 370px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(167, 139, 250, 1);
+  }
+  
+  .submit:hover {
+    background-color: #00bfff96;
+  }
+  
